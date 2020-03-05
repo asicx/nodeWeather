@@ -1,0 +1,25 @@
+{
+  "name": "node-js-weather-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/asicx/nodeWeather"
+  },
+  "keywords": [
+    "nodejs",
+    "api",
+    "weather"
+  ],
+  "author": "asicx",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "request": "^2.88.2",
+    "yargs": "^15.1.0"
+  }
+}
