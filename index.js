@@ -3,7 +3,7 @@ const argv = require('yargs').argv;
 require('dotenv').config();
 
 
-let apiKey = 'process.env.API_KEY';
+let apiKey = process.env.THE_API_KEY;
 let city = argv.c || 'Bloomington';
 let url = `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=imperial`
 
